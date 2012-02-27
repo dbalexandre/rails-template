@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  username: postgres
+  password:
+  database: PROJECT_development
+
+test:
+  adapter: postgresql
+  username: postgres
+  password:
+  database: PROJECT_test
+  min_messages: WARNING
+
+production:
+  adapter: postgresql
+  username: postgres
+  password:
+  database: PROJECT_production
